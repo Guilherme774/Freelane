@@ -1,0 +1,13 @@
+.card-title-text {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.card-header-text {
+    font-size: 14px;
+}
+
+.card-footer-text {
+    font-size: 14px;
+    color: #e5e5e5;
+}
