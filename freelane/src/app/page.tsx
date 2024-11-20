@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
-import ProjectsPage from "./projects-page/projects-page";
-import Head from "next/head";
-import { Html } from "next/document";
+import ProjectsPage from "./projects/projects-page";
+import { Sidebar } from "./shared/sidebar";
 
 const inter = Inter({
   subsets: ['latin'], // Inclua os caracteres necessários
@@ -10,7 +9,9 @@ const inter = Inter({
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="grid grid-cols-[15rem_1fr] h-screen">
+      <Sidebar />
+
       <ProjectsPage />
     </div>
   );
